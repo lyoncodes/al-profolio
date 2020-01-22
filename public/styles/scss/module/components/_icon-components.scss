@@ -1,0 +1,48 @@
+// ============ ICONS ============ //
+#services{
+  .svg-inline--fa{
+    top: 10px;
+    color: $accent-green;
+  }
+}
+.icon-row{
+  a{
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff!important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1.2rem;
+  }
+  .svg-inline--fa{
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 36px;
+    height: 36px;
+    color: $white;
+    opacity: 0.9;
+    padding: 2px;
+    font-size: .9375rem;
+  }
+
+}
+
+.feature{
+  svg.svg-inline--fa {
+    color: white;
+  }
+  h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}

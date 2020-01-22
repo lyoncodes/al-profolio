@@ -1,0 +1,74 @@
+// ===== VARIABLES =====
+$heading-font: 'Oswald', sans-serif;
+$body-font: 'Open-Sans', sans-serif;
+$bold-font-weight: 800;
+$caption-font-weight: 500;
+$light-font-weight: 100;
+// ===== BASE ELEMENT STYLES =====
+body, p{
+  font-family: $body-font;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: $heading-font;
+}
+.text-primary{
+  color: $accent-green!important;
+}
+.navbar, .nav, .post-author-name, button, strong{
+ font-family: $heading-font; 
+}
+// ===== TITLES & HEADINGS =====
+.nav-title{
+  color: white!important;
+  font-weight: $bold-font-weight;
+  font-size: 1.45rem;
+  letter-spacing: .021rem;
+}
+.main-title{
+  font-size: 6rem;
+  font-weight: $bold-font-weight;
+  line-height: 5.5rem;
+  margin-top: 1.5em;
+}
+.section-title{
+  color: $stone-grey;
+  font-size: 3.5rem;
+  font-weight: $bold-font-weight;
+  text-transform: uppercase;
+}
+.sub-title{
+  color: $accent-green;
+  font-size: 2rem;
+  font-weight: $bold-font-weight;
+  text-transform: uppercase;
+}
+.sub-heading{
+  text-transform: uppercase;
+  font-weight: $caption-font-weight;
+  font-size: 1.5rem;
+}
+// ===== TEXT & CAPTIONS =====
+.caption{
+  color: $stone-grey;
+  font-weight: $bold-font-weight;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.main-text{
+  color: $stone-grey;
+  font-weight: 700;
+  font-size: 1em;
+  opacity: 0.8;
+}
+.sub-text{
+  color: $stone-grey;
+  font-weight: $light-font-weight;
+}
+// ===== BREAKPOINTS =====
+@include media-breakpoint-up(lg) {
+  .sub-title{
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: .021rem;
+  }
+}

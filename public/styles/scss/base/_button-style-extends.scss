@@ -1,0 +1,47 @@
+// BUTTON STYLE EXTENDS
+%btn-style-override{
+  border: 1px solid darken($primary-green, 4%);
+  background: lighten($primary-green, 0);
+  border-radius: 0;
+  -webkit-box-shadow: 10px 10px 24px -1px rgba(166,166,166,1);
+  -moz-box-shadow: 10px 10px 24px -1px rgba(166,166,166,1);
+  box-shadow: 10px 10px 24px -1px rgba(166,166,166,1);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 45px;
+  margin: 1em 0 1em 0;
+  overflow: hidden;
+  padding: .25rem;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+
+%btn-link-override{
+  &:focus{
+    text-decoration: none;
+  }
+}
+
+%btn-md-style{
+  @extend %btn-style-override;
+  &:hover:after{
+    background: #FFF;
+    border: 20px solid rgb(158, 243, 158);
+    opacity: 0.3;
+    left: 120%;
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
+  }
+}
+
+%btn-secondary-style{
+  background-color: white;
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  margin: 1em;
+}

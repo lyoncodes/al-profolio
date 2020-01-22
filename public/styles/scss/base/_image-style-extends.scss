@@ -1,0 +1,12 @@
+// background image layouts
+%landing-img-style{
+  background-image: url(../assets/img/oly-2.png);
+  background-size: cover;
+  background-position: center;
+}
+%section-img-style{
+  background-image: url(../assets/img/mtn.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}

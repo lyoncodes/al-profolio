@@ -1,0 +1,67 @@
+@import '../bootstrap/scss/functions';
+@import '../bootstrap/scss/variables';
+@import '../bootstrap/scss/mixins';
+@import 'variables';
+
+// Reset & Dependencies
+@import "../bootstrap/scss/print";
+@import '../scss/base/base';
+
+// ====== DEVELOPMENT STYLES GO HERE:
+#bio{
+  .card{
+    img{
+      @extend %landing-img-style;
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      -webkit-box-shadow: $box-shadow;
+      box-shadow: $box-shadow;
+    }
+  }
+}
+
+.portfolio-section{
+  padding-top: 0rem!important;
+  max-width: 75rem;
+}
+
+.hr-main{
+  border-top: .15rem solid $primary-green;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  width: 35.5%;
+}
+.card{
+  border: none;
+  border-radius: 0%;
+  -webkit-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
+  &:after{
+    display: block;
+    position: absolute;
+    bottom: -.625rem;
+    left: 1.25rem;
+    width: calc(100% - 2.5rem);
+    height: 2.1875rem;
+    background-color: #fff;
+    -webkit-box-shadow: $box-shadow;
+    box-shadow: $box-shadow;
+    content: '';
+    z-index: -1;
+  }
+}
+
+// ====== MEDIA QUERIES
+@include media-breakpoint-up(xs){
+}
+
+@include media-breakpoint-up(md){
+}
+
+@include media-breakpoint-up(lg){
+  body{
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
