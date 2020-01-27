@@ -15,7 +15,7 @@
 
 // Navbar Styling
 .navbar {
-  background-color: white!important;
+  background-color: #202429!important;
   position: fixed;
   left: 0;
   top: 0;
@@ -25,7 +25,7 @@
   z-index: 99999;
   // Nav Logo
   img{
-    height: 5em;
+    height: 4em;
     padding: .45em;
   }
   // Navbar UL
@@ -35,8 +35,6 @@
 
   // Navbar Toggler
   .navbar-toggler {
-    background-color: $primary-red;
-    border: 1px solid $primary-red!important;
     position: relative;
     height: 50px;
     margin-right: 20px;
@@ -49,7 +47,6 @@
       left: 15px;
       right: 15px;
       height: 2px;
-      background-color: $primary-red;
       opacity: 0;
       -webkit-transform: translateY(-1px);
       -ms-transform: translateY(-1px);

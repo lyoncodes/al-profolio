@@ -3,7 +3,7 @@
 .btn{
   @extend %btn-style-override;
   &:hover{
-    background: darken($color: $primary-green, $amount: 3%);
+    background: darken($color: $accent-red, $amount: 3%);
     border: 1px solid rgba(#000, 0.5);
     box-shadow: 1px 1px 2px rgba(#fff, .2);
     color: lighten(white, 18%);
@@ -42,21 +42,6 @@
   }
 }
 // form button
-.btn-primary{
-  background-color:#007bff;
-  border: 2px solid #007bff;
-  box-shadow: none;
-  &:hover{
-    border: 2px solid #007bff;
-    background-color: #FFF;
-    color: #007bff;
-  }
-  &:hover:after{
-    background: #FFF;
-    border: 15px solid #007bff;
-    opacity: 0.3;
-    left: 125%;
-    -webkit-transform: rotate(40deg);
-            transform: rotate(40deg);
-  }
+.form-btn{
+  width: 35%;
 }

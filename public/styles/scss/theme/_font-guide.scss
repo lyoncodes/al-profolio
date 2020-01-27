@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{
 .text-primary{
   color: $accent-green!important;
 }
-.navbar, .nav, .post-author-name, button, strong{
+.navbar, .nav, .post-author-name, button, strong, label, input, cite, textarea, li{
  font-family: $heading-font; 
 }
 // ===== TITLES & HEADINGS =====
@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
 }
 .sub-title{
-  color: $accent-green;
+  color: $accent-red;
   font-size: 2rem;
   font-weight: $bold-font-weight;
   text-transform: uppercase;
@@ -55,7 +55,7 @@ h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
 }
 .main-text{
-  color: $stone-grey;
+  color: $white;
   font-weight: 700;
   font-size: 1em;
   opacity: 0.8;

@@ -1,135 +1,148 @@
 #home
-  // Nav
-  // Landing Page
   .landing
     .home-wrap
       .home-inner
-  .caption.text-center
-    img(src='../styles/assets/logos/logo.png')
-    h3 Real Estate Services
-    a.btn.btn-outline-light.btn-lg(href='#course') View Listings
-// Start Course Section
-#course.offset
-  .col-12.narrow.text-center
-    h1 Client First Brokerage Services
-    p.lead  Lorem Ipsum The Very Best Serving Olympia, WA 
-    a.btn.btn-secondary.btn-md(href='#' target='_blank') Get In Touch
-// End Course Section
-// Start Features Section
-#features.offset
+        .row
+          .col-10.col-md-6.col-lg-4.home-img-wrap.ml-auto.mr-auto.mt-5
+            img(src='../styles/assets/logos/logo.png')
+          .col-10.col-md-6.col-lg-4.home-text-wrap.ml-auto.mr-auto.mt-5
+            p.main-text Lyon Home Inspections provides the highest quality inspection services at prices nearly any homeowner can afford. We empower our customers with un-biased disclosures and easy-to-read inspection reports, backed by industry leading expertise. 
+            p.main-text Our inspectors are InterNACHI trained to provide Buyer’s Inspections, 4-Points Inspections, Wind Mitigation Inspections, and Blower-Door Services. 
+            a.btn.btn-md(href='#' target='_blank') Schedule an Inspection
+#services.offset
   // Jumbotron
   .jumbotron
     .narrow.text-center
+      .row.justify-content-center
       .col-12
-        h3.heading Services
-        .heading-underline
+        h3.sub-title Services
+        hr.hr-main
       .row.text-center
-        .col-md-4
+        .col-md-4.mb-5
           .feature
-            i.fas.fa-play-circle.fa-4x(data-fa-transform='shrink-3 up-5')
-            h3 At Your Service
-            p  Lorem Ipsum The Very Best Serving Olympia, WA 
-        .col-md-4
+            i(class=page_icon data-fa-transform='shrink-4.5 up-4.5')
+            h3 4-Points Inspection
+            p  Four point inspections provide a snapshot of a property’s condition by focusing on the home’s main components. Less rigorous than a full home inspection, the Four point service is an easy way to get a qualified inspection that meets the requirements of most insurance companies in North Florida. 
+            ul.pl-0
+              li Price Line $500
+              li Price Line $500
+              li Price Line $500
+        .col-md-4.mb-5
           .feature
-            i.fas.fa-sliders-h.fa-4x(data-fa-transform='shrink-4.5 up-4.5')
-            h3 Market Analysis
+            i(class=paperplane_icon data-fa-transform='shrink-4.5 up-4.5')
+            h3 Wind Mitigation Inspection
             p
-              | Lorem Ipsum The Very Best Serving Olympia, WA Lorem Ipsum The Very Best Serving Olympia, WA
-        .col-md-4
+              | We’ll examine a home’s existing ability to withstand a windstorm and provide recommendations for improvements in wind-resistance. Our detailed wind-mitigation reports can help lower your homeowner’s insurance and prioritize your next steps in home improvement.
+            ul.pl-0
+              li Price Line $500
+              li Price Line $500
+              li Price Line $500
+        .col-md-4.mb-5
           .feature
-            i.fab.fa-wpforms.fa-4x(data-fa-transform='shrink-4 up-5')
-            h3 Market Analysis
+            i(class=house_icon data-fa-transform='shrink-4.5 up-4.5')
+            h3 Buyer's Pre-Purchase
             p
-              | The Very Best Serving Olympia, WA Lorem Ipsum The Very Best Serving Olympia, WA
-      // End Row
-    // End Narrow
-// End Features Section
-// Start Resources Section
-#resources.offset
-  // Fixed Bg
+              | We’re proud to help homebuyers understand the condition of a property before calling it home. Our InterNACHI certified inspections cover a home from top-to-bottom, from the structure of the roof to the condition of the foundation.
+            ul.pl-0
+              li Price Line $500
+              li Price Line $500
+              li Price Line $500
+#certifications.offset
   .fixed-background
     .row.dark.text-center
       .col-12
-        h3.heading Built With Care
-        .heading-underline
+        h3.sub-title interNACHI Licensed
+        hr.hr-main
       .col-md-4
-        h3 Sales
+        h3 Certification #1
         .feature
           i.fas.fa-code.fa-3x
-        p.lead An Unmatched attention to detail
+        p.lead Brief Certification Description
       .col-md-4
-        h3 Consultation
+        h3 Certification #2
         .feature
           i.fas.fa-code.fa-3x
-        p.lead An Unmatched attention to detail
+        p.lead Brief Certification Description
       .col-md-4
-        h3 Management
+        h3 Certification #3
         .feature
           i.fas.fa-code.fa-3x
-        p.lead An Unmatched attention to detail
+        p.lead Brief Certification Description
+    .row.dark.text-center.pb-5
+      .col-md-4
+        h3 Certification #4
+        .feature
+          i.fas.fa-code.fa-3x
+        p.lead Brief Certification Description
+      .col-md-4
+        h3 Certification #5
+        .feature
+          i.fas.fa-code.fa-3x
+        p.lead Brief Certification Description
+      .col-md-4
+        h3 Certification #6
+        .feature
+          i.fas.fa-code.fa-3x
+        p.lead Brief Certification Description
     .fixed-wrap
       .fixed
-// End Resources Section
+// Start Pricing Section
+#pricing.offset.pt-5.pb-5
+  .row.justify-content-center
+    h3.sub-title Why Choose Us
+  .row.justify-content-center
+    .col-10.col-md-8.col-lg-3.card.ml-3.mr-3.text-center
+      img(src="../styles/assets/img/house1.jpg", alt="")
+      h3 Accuracy
+      .row.justify-content-center
+        .col-10
+          i(class=plus_icon data-fa-transform='shrink-4.5 up-4.5')
+          p.sub-text Buying a home is one of life’s most important investments. That’s why a professional home inspection is crucial to understand the risks, dangers, and defects before buying a property. We provide InterNACHI certified expertise, delivering comprehensive inspection reports that provide the knowledge to empower an informed decision.  
+    .col-10.col-md-8.col-lg-3.card.ml-3.mr-3.text-center
+      img(src="../styles/assets/img/house.jpg", alt="")
+      h3 Affordability
+      .row.justify-content-center
+        .col-10
+          i(class=money_icon data-fa-transform='shrink-4.5 up-4.5')
+          p.sub-text Text Alex Lyon Provides The Best Sample Text Alex Lyon Provides The Best Sample Text Alex Lyon Provides The Best Sample Text Alex Lyon Provides The Best
+    .col-10.col-md-8.col-lg-3.card.ml-3.mr-3.text-center
+      img(src="../styles/assets/img/house1.jpg", alt="")
+      h3 Accessibility
+      .row.justify-content-center
+        .col-10
+          i(class=user_icon data-fa-transform='shrink-4.5 up-4.5')
+          p.sub-text Integrity and expertise are at the core of our inspection services. In working with us you’ll partner with experts committed to the highest level of professionalism. We encourage your company on inspections and invite any questions during the process. 
+
 // Start Clients Section
-#clients.offset
+//- #reviews.offset
   // jumbotron
   .jumbotron
     .col-12.text-center
-      h3.heading Clients
+      h3.sub-title Customers First, Always
       .heading-underline
     .row
-      .col-md-6.clients
+      .col-md-6.review-container
         .row
           // img
           .col-md-4
             img(src='../styles/assets/img/client1.png')
           // caption
           .col-md-8
-            blockquote
-              i.fas.fa-quote-left
-              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA.
-              hr.clients-hr
+            blockquote.sub-text.p-4
+              i(class=quote_icon)
+              | Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA.
+              hr.hr-main
               cite &mdash; Lisa Redfern, Home buyer
-      .col-md-6.clients
+      .col-md-6.review-container
         .row
           // img
           .col-md-4
             img(src='../styles/assets/img/client1.png')
           // caption
           .col-md-8
-            blockquote
-              i.fas.fa-quote-left
-              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA.
-              hr.clients-hr
+            blockquote.sub-text.p-4
+              i(class=quote_icon)
+              | Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA Lorem Ipsum the very best in Olympia, WA.
+              hr.hr-main
               cite &mdash; Lisa Redfern, Home buyer
-  // End Jumbotron
-  .col-12.narrow.text-center
-    p.lead
-      | Let&apos;s talk about how we can accomplish your real estate goals
-    a.btn.btn-secondary.btn-md(href='#' target='_blank') Get In Touch
 // End Clients Section
-// Start Contact Section
-#contact.offset
-  footer
-    .row.justify-content-center
-      .col-md-5.text-center
-        img(src='../styles/assets/logos/logo.png')
-        p
-          | Let&apos;s talk about how we can accomplish your real estate goals, Lorem Ipsum all day I love Olympia and my service is unmatched
-        strong Contact Info
-        p
-          | Phone
-          br
-          | Email
-        a(href='#' target='_blank')
-          i.fab.fa-facebook-square
-        a(href='#' target='_blank')
-          i.fab.fa-instagram
-        a(href='#' target='_blank')
-          i.fab.fa-twitter-square
-      // footer signature
-      hr.socket
-      | &#x9;&#x9;&copy; Made By Michael.
-// End Contact Section
-// - Script Source Files
-// - End of Script Source Files

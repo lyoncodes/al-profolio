@@ -1,0 +1,15 @@
+/* ======= Client/Testimonial Section ========= */
+#reviews{
+  .review-container{
+    img{
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto;
+      max-width: 50%;
+    }
+    blockquote .svg-inline--fa {
+      color: $primary-red;
+      margin: 1rem;
+    }
+  }
+}

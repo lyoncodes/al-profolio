@@ -21,13 +21,23 @@
   }
 }
 
+.narrow{
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+
+  h1 {
+    font-size: 2.4rem;
+  }
+}
+
 .portfolio-section{
   padding-top: 0rem!important;
   max-width: 75rem;
 }
 
 .hr-main{
-  border-top: .15rem solid $primary-green;
+  border-top: .15rem solid $primary-red;
   margin-top: 12px;
   margin-bottom: 10px;
   width: 35.5%;
@@ -37,6 +47,8 @@
   border-radius: 0%;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
+  margin-top: 1em;
+  margin-bottom: 1em;
   &:after{
     display: block;
     position: absolute;
@@ -50,7 +62,12 @@
     content: '';
     z-index: -1;
   }
+  img{
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }
+
 
 // ====== MEDIA QUERIES
 @include media-breakpoint-up(xs){
@@ -62,6 +79,5 @@
 @include media-breakpoint-up(lg){
   body{
     padding-top: 0;
-    padding-left: 17rem;
   }
 }

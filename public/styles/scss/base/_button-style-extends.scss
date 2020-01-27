@@ -1,7 +1,7 @@
 // BUTTON STYLE EXTENDS
 %btn-style-override{
-  border: 1px solid darken($primary-green, 4%);
-  background: lighten($primary-green, 0);
+  border: 1px solid darken($primary-red, 4%);
+  background: lighten($primary-red, 0);
   border-radius: 0;
   -webkit-box-shadow: 10px 10px 24px -1px rgba(166,166,166,1);
   -moz-box-shadow: 10px 10px 24px -1px rgba(166,166,166,1);
@@ -28,13 +28,14 @@
 
 %btn-md-style{
   @extend %btn-style-override;
-  &:hover:after{
-    background: #FFF;
-    border: 20px solid rgb(158, 243, 158);
-    opacity: 0.3;
-    left: 120%;
-    -webkit-transform: rotate(40deg);
-            transform: rotate(40deg);
+  &:hover{
+    background: darken($color: $accent-red, $amount: 3%);
+    border: 1px solid rgba(#000, 0.5);
+    box-shadow: 1px 1px 2px rgba(#fff, .2);
+    color: lighten(white, 18%);
+    text-decoration: none;
+    text-shadow: -1px -1px 0 darken(#000, 9.5%);
+    transition: all 250ms linear;
   }
 }
 

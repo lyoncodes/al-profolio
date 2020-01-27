@@ -1,11 +1,17 @@
 @import '../base/image-style-extends';
 // Theme Styling (Reusable)
-#about{
+#home{
   .text-primary{
-    color: $primary-green!important;
+    color: $stone-grey!important;
   }
   .text-content{
     margin-top: 2em;
+  }
+  // img container
+  .home-img-wrap{
+    img{
+      width: 100%;
+    }
   }
 }
 .subheading{

@@ -1,0 +1,23 @@
+#contact.container.p-4.text-center
+  h3.sub-title Let's Get In Touch
+  form.contact-form.needs-validation.p-4(novalidate='')
+    .form-row
+      .col-md-4.mb-3
+        label(for='validationTooltip01') Name
+        input#validationTooltip01.form-control(type='text' placeholder='Name' required='')
+        .valid-tooltip
+          | Looks good!
+      .col-md-4.mb-3
+        label(for='validationTooltip02') Email
+        input#validationTooltip02.form-control(type='text' placeholder='Email' required='')
+        .valid-tooltip
+          | Looks good!
+    .form-row
+      .col-md-8.mb-3
+        label(for='validationTooltip03') Message
+        textarea#validationTooltip03.form-control(type='text' placeholder='Message' required='')
+        .valid-tooltip
+          | Looks good!
+    .form-row
+      button.btn.form-btn(type='submit') Submit
+  
