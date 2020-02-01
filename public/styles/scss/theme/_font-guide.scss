@@ -50,11 +50,12 @@ h1,h2,h3,h4,h5,h6{
 // ===== TEXT & CAPTIONS =====
 .nav-caption{
   color: $white;
-  font-size: 10px;
+  font-size: 11px;
 }
 .caption{
   color: $white;
   opacity: 0.8;
+  font-family: $heading-font;
   font-weight: $bold-font-weight;
   font-size: .75rem;
   text-transform: uppercase;
@@ -77,6 +78,6 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: .021rem;
   }
   .nav-caption{
-    font-size: 1em;
+    font-size: 1.25em;
   }
 }

@@ -144,12 +144,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-caption {
   color: #fff;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .caption {
   color: #fff;
   opacity: 0.8;
+  font-family: "Oswald", sans-serif;
   font-weight: 800;
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -175,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .nav-caption {
-    font-size: 1em;
+    font-size: 1.25em;
   }
 }
 .btn, .btn-md {
@@ -670,7 +671,7 @@ h3.carousel-heading {
 }
 
 .navbar.fixed-top.navbar-dark .navbar-nav .nav-link::after {
-  background-color: #940031;
+  background-color: #fff;
   height: 4px;
 }
 
@@ -682,35 +683,12 @@ h3.carousel-heading {
     box-shadow: 4px 1px 9px 1px #a3a3a3;
   }
 
-  #side-nav {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    width: 17rem;
-    height: 100vh;
+  .navbar .navbar-brand {
+    margin-right: 0;
   }
-  #side-nav .navbar-brand {
-    display: flex;
-    margin: 1.2em;
-    padding: 0.5rem;
-  }
-  #side-nav .navbar-brand .img-profile {
-    border: 0.5rem solid rgba(211, 209, 209, 0.877);
-  }
-  #side-nav .navbar-collapse {
-    align-items: flex-start;
-    flex-grow: 0;
-    margin-bottom: auto;
-  }
-  #side-nav .navbar-collapse .navbar-nav {
-    flex-direction: column;
-  }
-  #side-nav #nav-footer .navbar-nav .nav-tagline {
-    font-size: 0.5em;
-    color: #940031;
+  .navbar .navbar-brand img {
+    height: 4em;
+    padding: 0.45em;
   }
 
   .navbar.fixed-top .navbar-nav {
@@ -718,7 +696,7 @@ h3.carousel-heading {
   }
 
   .navbar-dark .navbar-nav .nav-link {
-    color: #940031;
+    color: #fff;
     padding: 15px;
   }
   .navbar-dark .navbar-nav .nav-link:hover {
@@ -736,7 +714,7 @@ h3.carousel-heading {
     left: 30%;
     right: 30%;
     height: 6px;
-    background-color: #940031;
+    background-color: #fff;
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
@@ -866,10 +844,14 @@ h3.carousel-heading {
 }
 #home .home-img-wrap .svg-inline--fa {
   color: #fff;
-  height: 0.85em;
-  margin-right: 4px;
-  margin-left: 4px;
+  height: 0.45em;
+  margin-bottom: 4px;
+  margin-right: 3px;
+  margin-left: 2px;
   opacity: 0.8;
+}
+#home .home-logo-wrap img {
+  width: 100%;
 }
 
 .subheading .row {

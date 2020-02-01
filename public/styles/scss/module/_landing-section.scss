@@ -14,10 +14,16 @@
     }
     .svg-inline--fa{
       color: $white;
-      height: .85em;
-      margin-right: 4px;
-      margin-left: 4px;
+      height: .45em;
+      margin-bottom: 4px;
+      margin-right: 3px;
+      margin-left: 2px;
       opacity: 0.8;
+    }
+  }
+  .home-logo-wrap{
+    img{
+      width: 100%;
     }
   }
 }

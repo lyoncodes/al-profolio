@@ -121,7 +121,7 @@
 }
 // Underline Animation Color & Height
 .navbar.fixed-top.navbar-dark .navbar-nav .nav-link::after {
-  background-color: $primary-red;
+  background-color: $white;
   height: 4px;
 }
 // Breakpoints
@@ -133,50 +133,61 @@
     -moz-box-shadow: 4px 1px 9px 1px rgba(163,163,163,1);
     box-shadow: 4px 1px 9px 1px rgba(163,163,163,1);
   }
-  #side-nav{
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    width: 17rem;
-    height: 100vh;
-
+  .navbar{
     .navbar-brand{
-      display: flex;
-      margin: 1.2em;
-      padding: .5rem;
-      
-      .img-profile{
-        border: .5rem solid rgba(211, 209, 209, 0.877);
-      }
-    }
-
-    .navbar-collapse{
-      align-items: flex-start;
-      flex-grow: 0;
-      margin-bottom: auto;
-
-      .navbar-nav{
-        flex-direction: column;
-      }
-    }
-    
-    #nav-footer{
-      .navbar-nav{
-        .nav-tagline{
-          font-size: .5em;
-          color: $primary-red;
-        }
+      margin-right: 0;
+      img{
+        height: 4em;
+        padding: .45em;
       }
     }
   }
+  // #side-nav{
+  //   text-align: center;
+  //   position: fixed;
+  //   top: 0;
+  //   left: 0;
+  //   display: flex;
+  //   flex-direction: column;
+  //   width: 17rem;
+  //   height: 100vh;
+  //   .navbar-brand{
+  //     display: flex;
+  //     margin: 1.2em;
+  //     padding: .5rem;
+  //     img{
+  //       height: 4em;
+  //       padding: .45em;
+  //     }
+  //     .img-profile{
+  //       border: .5rem solid rgba(211, 209, 209, 0.877);
+  //     }
+  //   }
+
+  //   .navbar-collapse{
+  //     align-items: flex-start;
+  //     flex-grow: 0;
+  //     margin-bottom: auto;
+
+  //     .navbar-nav{
+  //       flex-direction: column;
+  //     }
+  //   }
+    
+  //   #nav-footer{
+  //     .navbar-nav{
+  //       .nav-tagline{
+  //         font-size: .5em;
+  //         color: $primary-red;
+  //       }
+  //     }
+  //   }
+  // }
   .navbar.fixed-top .navbar-nav {
     background: transparent;
   }
   .navbar-dark .navbar-nav .nav-link {
-    color: $primary-red;
+    color: $white;
     padding: 15px;
     &:hover{
       color: $stone-grey;
@@ -192,7 +203,7 @@
     left: 30%;
     right: 30%;
     height: 6px;
-    background-color: $primary-red;
+    background-color: $white;
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
