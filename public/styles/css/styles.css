@@ -24,33 +24,8 @@ body::-webkit-scrollbar { width: 0 !important }
 .home-inner{
   background-color: black;
   background-image: url('../assets/logos/logo-watermark.png');
-  margin-top: 6em;
+  margin-top: 5em;
 }
-/* Landing Page Caption */
-  .caption{
-    background-color: rgb(255, 255, 255);
-    border-radius: 2px;
-    color: white;
-    width: 50%;
-    max-width: 100%;
-    position: absolute;
-    padding: 5em;
-    top: 50%;
-    left: 25%;
-    z-index: 1;
-  }
-  .caption h1{
-    font-size: 3.8rem;
-    font-weight: 700;
-    letter-spacing: .3rem;
-    text-shadow: .1rem .1rem .8rem black;
-    padding-bottom: 1rem;
-  }
-  .caption h3{
-    font-size: 2rem;
-    text-shadow: .1rem .1rem .5rem black;
-    padding-bottom: 1.6rem;
-  }
 /* btn */
 .btn-lg{
   border-width: medium;
