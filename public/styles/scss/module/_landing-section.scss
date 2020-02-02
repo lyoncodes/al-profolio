@@ -15,8 +15,8 @@
     .svg-inline--fa{
       color: $white;
       height: .45em;
-      margin-bottom: 4px;
-      margin-right: 3px;
+      margin-bottom: 6px;
+      margin-right: 4px;
       margin-left: 2px;
       opacity: 0.8;
     }
@@ -24,6 +24,16 @@
   .home-logo-wrap{
     img{
       width: 100%;
+    }
+  }
+  .home-text-wrap{
+    .svg-inline--fa{
+      color: $white;
+      height: .45em;
+      margin-bottom: 4px;
+      margin-right: 4px;
+      margin-left: 2px;
+      opacity: 0.8;
     }
   }
 }
@@ -47,4 +57,16 @@
 }
 #icons{
   padding-top: 0em!important;
+}
+@include media-breakpoint-up(lg) {
+  .home-text-wrap{
+    .svg-inline--fa{
+      color: $white;
+      height: .85em;
+      margin-bottom: 4px;
+      margin-right: 4px;
+      margin-left: 2px;
+      opacity: 0.8;
+    }
+  }
 }

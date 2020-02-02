@@ -19,19 +19,23 @@
               span.caption Green Cove Springs 
               i(class=divider display="inline")
               span.caption Orange Park
-            .row.mt-5.mb-5.home-logo-wrap
-              .col-6.col-md-3
+            .row.mt-5.mb-5.home-logo-wrap.justify-content-center
+              .col-4
                 img(src='../styles/assets/badges/interNACHI.png')
-              .col-6.col-md-3
-                img(src='../styles/assets/badges/CPI.png')
-              .col-6.col-md-3
-                img(src='../styles/assets/badges/electrical.png')
-              .col-6.col-md-3
+              .col-4
+                img(src='../styles/assets/badges/wind.png')
+              .col-4
+                img(src='../styles/assets/badges/4points.png')
+              .col-4
                 img(src='../styles/assets/badges/pool.png')
+              .col-4
+                img(src='../styles/assets/badges/buyback.png')
           //- Text Col
-          .col-10.col-md-6.col-lg-4.home-text-wrap.ml-auto.mr-auto.mt-md-5.mb-md-5.order-2.order-md-2
-            h3.sub-title.mb-3 Committed to Quality, Committed to You
-            p.sub-text At Lyon Home Inspections our commitment to quality begins with a through, systematic and objective home inspection process that ensures an accurate snapshot of the home's visible and accessible condition. We provide an easy-to-read, custom report compiling our findings with detailed descriptions, high resolution photos, and any discovered issues so you can make an informed decision. We also encourage you to attend the inspection so we can discuss the process, point out important maintenance items, explain the findings, and answer all of your questions.
+          .col-10.col-md-6.col-lg-4.home-text-wrap.ml-auto.mr-auto.mt-md-5.mb-md-5.pt-md-5.order-2.order-md-2
+            h3.main-title.d-inline Committed to Quality
+            i(class=divider display="inline")
+            h3.main-title.d-inline Committed to You
+            p.sub-text.mt-4.mt-md-5 At Lyon Home Inspections our commitment to quality begins with a through, systematic and objective home inspection process that ensures an accurate snapshot of the home's visible and accessible condition. We provide an easy-to-read, custom report compiling our findings with detailed descriptions, high resolution photos, and any discovered issues so you can make an informed decision. We also encourage you to attend the inspection so we can discuss the process, point out important maintenance items, explain the findings, and answer all of your questions.
             p.sub-text As a Florida Licensed and Certified Professional Home Inspection company our services include: Buyers Inspections, Pre Sales Inspections, Rental Property Inspections, Wind Mitigation Inspections, 4 –Points Inspections, and Mold Testing. 
             p.sub-text Lyon Home Inspections is also a Florida certified Energy Rater providing blower-door air infiltration testing with thermal imaging for both new and existing homes. 
 #services.offset
@@ -45,9 +49,10 @@
       .row.text-center
         .col-md-4.mb-5
           .feature
-            i(class=page_icon data-fa-transform='shrink-4.5 up-4.5')
-            h3 4-Points Inspection
-            p  Four point inspections provide a snapshot of a property’s condition by focusing on the home’s main components. Less rigorous than a full home inspection, the Four point service is an easy way to get a qualified inspection that meets the requirements of most insurance companies in North Florida. 
+            i(class=house_icon data-fa-transform='shrink-4.5 up-4.5')
+            h3 Home Inspection
+            p
+              | We’re proud to help homebuyers understand the condition of a property before calling it home. Our InterNACHI certified inspections cover a home from top-to-bottom, from the structure of the roof to the condition of the foundation.
             ul.pl-0
               li Price Line $500
               li Price Line $500
@@ -64,53 +69,177 @@
               li Price Line $500
         .col-md-4.mb-5
           .feature
-            i(class=house_icon data-fa-transform='shrink-4.5 up-4.5')
-            h3 Buyer's Pre-Purchase
+            i(class=page_icon data-fa-transform='shrink-4.5 up-4.5')
+            h3 4-Point Inspections
             p
-              | We’re proud to help homebuyers understand the condition of a property before calling it home. Our InterNACHI certified inspections cover a home from top-to-bottom, from the structure of the roof to the condition of the foundation.
+              | Four point inspections provide a snapshot of a property’s condition by focusing on the home’s main components. Less rigorous than a full home inspection, the Four point service is an easy way to get a qualified inspection that meets the requirements of most insurance companies in North Florida. 
             ul.pl-0
               li Price Line $500
               li Price Line $500
               li Price Line $500
 #certifications.offset
   .fixed-background
-    .row.dark.text-center
+    .row.justify-content-center
+      h3.sub-title.text-center What We Inspect
       .col-12
-        h3.sub-title interNACHI Licensed
-        hr.hr-main
-      .col-md-4
-        h3 Certification #1
-        .feature
-          i.fas.fa-code.fa-3x
-        p.lead Brief Certification Description
-      .col-md-4
-        h3 Certification #2
-        .feature
-          i.fas.fa-code.fa-3x
-        p.lead Brief Certification Description
-      .col-md-4
-        h3 Certification #3
-        .feature
-          i.fas.fa-code.fa-3x
-        p.lead Brief Certification Description
-    .row.dark.text-center.pb-5
-      .col-md-4
-        h3 Certification #4
-        .feature
-          i.fas.fa-code.fa-3x
-        p.lead Brief Certification Description
-      .col-md-4
-        h3 Certification #5
-        .feature
-          i.fas.fa-code.fa-3x
-        p.lead Brief Certification Description
-      .col-md-4
-        h3 Certification #6
-        .feature
-          i.fas.fa-code.fa-3x
-        p.lead Brief Certification Description
-    .fixed-wrap
-      .fixed
+        .row.justify-content-center
+          .col-8.col-lg-3
+            a.btn(data-toggle='collapse' href='#multiCollapseExample1' role='button' aria-expanded='false' aria-controls='multiCollapseExample1') Exterior
+            .row
+              .col.ml-3
+                #multiCollapseExample1.collapse.multi-collapse
+                  .card.card-body
+                    ul
+                      li.caption-dark Walls - Siding - Trim
+                      li.caption-dark Driveways -  Walkways
+                      li.caption-dark Steps - Stairs - Stoop
+                      li.caption-dark Grading - Drainage
+                      li.caption-dark Landscaping - Overgrowth
+                      li.caption-dark Exterior Doors - Windows
+                      li.caption-dark Eaves - Vents - Softlets
+                      li.caption-dark Masonry Components
+                      li.caption-dark Portch - Patio - Deck
+                      li.caption-dark Safety Rails
+                      li.caption-dark Main Water Shutoff - Shut off
+                      li.caption-dark Hose Bibs
+          .col-8.col-lg-3
+            a.btn(data-toggle='collapse' href='#multiCollapseExample2' role='button' aria-expanded='false' aria-controls='multiCollapseExample2') Roof
+            .row
+              .col
+                #multiCollapseExample2.collapse.multi-collapse
+                  .card.card-body
+                    ul
+                      li.caption-dark Roof Covering
+                      li.caption-dark Gutters - Downspouts
+                      li.caption-dark Roof Flashing
+                      li.caption-dark Roof Vents
+                      li.caption-dark Plumbing Vent Stacks
+                      li.caption-dark Skylight
+                      li.caption-dark Chimney
+          .col-8.col-lg-3
+            a.btn(data-toggle='collapse' href='#multiCollapseExample3' role='button' aria-expanded='false' aria-controls='multiCollapseExample3') Garage
+            .row
+              .col
+                #multiCollapseExample3.collapse.multi-collapse
+                  .card.card-body
+                    ul
+                      li.caption-dark Garage Door - Safety Reverse
+                      li.caption-dark Walls and Ceilings
+                      li.caption-dark Floor, Slab
+                      li.caption-dark Fire Separation
+          .col-8.col-lg-3
+            a.btn(data-toggle='collapse' href='#multiCollapseExample4' role='button' aria-expanded='false' aria-controls='multiCollapseExample4') Interior
+            .row
+              .col.mr-3
+                #multiCollapseExample4.collapse.multi-collapse
+                  .card.card-body
+                    ul
+                      li.caption-dark Wall - Ceilings
+                      li.caption-dark Floors - Trim
+                      li.caption-dark Doors
+                      li.caption-dark Windows - Locks
+                      li.caption-dark Attic Insulation and Ventilation
+                      li.caption-dark Steps and Stairways
+                      li.caption-dark Balconies and Railings
+                      li.caption-dark Tempered/Safety Glass
+                      li.caption-dark Smoke and CO Detectors
+                      li.caption-dark Skylights
+                      li.caption-dark Counters - Cabinets - Shelves
+                      li.caption-dark Attic Hatch and Stairs
+                      li.caption-dark Fireplaces
+        .row.justify-content-center
+          .col-8.col-lg-3
+            a.btn(data-toggle='collapse' href='#multiCollapseExample5' role='button' aria-expanded='false' aria-controls='multiCollapseExample5') Structure
+            .row
+              .col.ml-3
+                #multiCollapseExample5.collapse.multi-collapse
+                  .card.card-body
+                    ul
+                      li.caption-dark Foundation
+                      li.caption-dark Floors, Slab
+                      li.caption-dark Crawlspace
+                      li.caption-dark Framing
+                      li.caption-dark Masonry Walls
+                      li.caption-dark Masonry Veneer
+                      li.caption-dark Columns, Piers, or Posts
+                      li.caption-dark Structural Steel
+                      li.caption-dark Chimney
+          .col-8.col-lg-3
+            a.btn(data-toggle='collapse' href='#multiCollapseExample6' role='button' aria-expanded='false' aria-controls='multiCollapseExample6') Kitchen
+            .row
+              .col
+                #multiCollapseExample6.collapse.multi-collapse
+                  .card.card-body
+                    ul
+                      li.caption-dark Cook Top
+                      li.caption-dark Range - Hood Exhaust
+                      li.caption-dark Refrigerator
+                      li.caption-dark Dishwasher
+                      li.caption-dark Disposer
+                      li.caption-dark Microwave
+                      li.caption-dark Sink
+                      li.caption-dark Countertops
+                      li.caption-dark Cabinets
+                      li.caption-dark Drawers/Doors
+          .col-8.col-lg-3
+            a.btn(data-toggle='collapse' href='#multiCollapseExample7' role='button' aria-expanded='false' aria-controls='multiCollapseExample7') Electrical
+            .row
+              .col
+                #multiCollapseExample7.collapse.multi-collapse
+                  .card.card-body
+                    ul
+                      li.caption-dark Electric Panels
+                      li.caption-dark Circuit Breakers
+                      li.caption-dark GFCI Protection
+                      li.caption-dark Service Entry Cable
+                      li.caption-dark Drop Cable
+                      li.caption-dark Meter/Meter Base
+                      li.caption-dark Grounding
+                      li.caption-dark Receptacles
+                      li.caption-dark Electric Panels
+                      li.caption-dark Switches/Dimmers
+                      li.caption-dark Light Fixtures
+                      li.caption-dark Ceiling Fans
+                      li.caption-dark Bathroom Fans
+                      li.caption-dark Door Bell
+          .col-8.col-lg-3
+            a.btn(data-toggle='collapse' href='#multiCollapseExample8' role='button' aria-expanded='false' aria-controls='multiCollapseExample8') HVAC
+            .row
+              .col.mr-3
+                #multiCollapseExample8.collapse.multi-collapse
+                  .card.card-body
+                    ul
+                      li.caption-dark Heat Pump
+                      li.caption-dark Condensing Unit
+                      li.caption-dark Refrigerant Lines
+                      li.caption-dark Air Handler
+                      li.caption-dark Evaporator Coil
+                      li.caption-dark Safety Controls
+                      li.caption-dark Condensate Pan an  Drain
+                      li.caption-dark Filter - Registers - Return
+                      li.caption-dark Ductwork - Plenum
+        .row.justify-content-center.justify-content-lg-start
+          .col-8.col-lg-3
+            a.btn(data-toggle='collapse' href='#multiCollapseExample9' role='button' aria-expanded='false' aria-controls='multiCollapseExample9') Plumbing
+            .row
+              .col.mr-3
+                #multiCollapseExample9.collapse.multi-collapse
+                  .card.card-body
+                    ul
+                      li.caption-dark Water Heater
+                      li.caption-dark Toilets - Faucets - Tubs
+                      li.caption-dark Shower - Surround and Pan
+                      li.caption-dark Pipes and Fittings
+                      li.caption-dark Drain - Waste - Vent
+                      li.caption-dark Faucets and Fixtures
+                      li.caption-dark Whirlpool Tub
+                      li.caption-dark Washer Machine
+                      li.caption-dark Dryer
+                      li.caption-dark Bath Vents
+                      li.caption-dark Water Pressure
+                      li.caption-dark Gas Meter - Gas Pipe
+    //- .fixed-wrap
+    //-   .fixed
 // Start Pricing Section
 #pricing.offset.pt-5.pb-5
   .row.justify-content-center

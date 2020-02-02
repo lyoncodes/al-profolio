@@ -1,12 +1,9 @@
 // BUTTON STYLE EXTENDS
 %btn-style-override{
-  border: 1px solid darken($primary-red, 4%);
-  background: lighten($primary-red, 0);
+  border-bottom: 1px solid darken($primary-red, 4%);
+  background: lighten($white, 0);
   border-radius: 0;
-  -webkit-box-shadow: 10px 10px 24px -1px rgba(166,166,166,1);
-  -moz-box-shadow: 10px 10px 24px -1px rgba(166,166,166,1);
-  box-shadow: 10px 10px 24px -1px rgba(166,166,166,1);
-  color: #fff;
+  color: $primary-red;
   cursor: pointer;
   font-size: 1.25rem;
   font-weight: 900;
@@ -18,9 +15,15 @@
   position: relative;
   transition: all 0.5s ease-in-out;
   width: 100%;
+  &:focus{
+    box-shadow: none;
+  }
 }
 
 %btn-link-override{
+  &:hover{
+    color: $primary-red;
+  }
   &:focus{
     text-decoration: none;
   }
@@ -29,7 +32,7 @@
 %btn-md-style{
   @extend %btn-style-override;
   &:hover{
-    background: darken($color: $accent-red, $amount: 3%);
+    // background: darken($color: $primary-red, $amount: 3%);
     border: 1px solid rgba(#000, 0.5);
     box-shadow: 1px 1px 2px rgba(#fff, .2);
     color: lighten(white, 18%);

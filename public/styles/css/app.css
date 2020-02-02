@@ -116,10 +116,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-title {
-  font-size: 6rem;
+  color: white !important;
+  font-size: 1.15rem;
   font-weight: 800;
-  line-height: 5.5rem;
-  margin-top: 1.5em;
 }
 
 .section-title {
@@ -152,8 +151,13 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8;
   font-family: "Oswald", sans-serif;
   font-weight: 800;
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
+}
+
+.caption-dark {
+  font-size: 1.25rem;
+  color: #000;
 }
 
 .main-text {
@@ -168,6 +172,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
 }
 
+.sub-text-dark {
+  color: black;
+  font-weight: 100;
+}
+
 @media (min-width: 992px) {
   .sub-title {
     font-weight: 900;
@@ -178,15 +187,16 @@ h1, h2, h3, h4, h5, h6 {
   .nav-caption {
     font-size: 1.25em;
   }
+
+  .main-title {
+    font-size: 1.85rem;
+  }
 }
 .btn, .btn-md {
-  border: 1px solid #80002a;
-  background: #940031;
+  border-bottom: 1px solid #80002a;
+  background: white;
   border-radius: 0;
-  -webkit-box-shadow: 10px 10px 24px -1px #a6a6a6;
-  -moz-box-shadow: 10px 10px 24px -1px #a6a6a6;
-  box-shadow: 10px 10px 24px -1px #a6a6a6;
-  color: #fff;
+  color: #940031;
   cursor: pointer;
   font-size: 1.25rem;
   font-weight: 900;
@@ -199,13 +209,18 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s ease-in-out;
   width: 100%;
 }
+.btn:focus, .btn-md:focus {
+  box-shadow: none;
+}
 
+.btn-link:hover {
+  color: #940031;
+}
 .btn-link:focus {
   text-decoration: none;
 }
 
 .btn-md:hover {
-  background: #6e1633;
   border: 1px solid rgba(0, 0, 0, 0.5);
   box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
   color: white;
@@ -223,12 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn:hover {
-  background: #6e1633;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
-  color: white;
   text-decoration: none;
-  text-shadow: -1px -1px 0 black;
   transition: all 250ms linear;
 }
 
@@ -845,13 +855,21 @@ h3.carousel-heading {
 #home .home-img-wrap .svg-inline--fa {
   color: #fff;
   height: 0.45em;
-  margin-bottom: 4px;
-  margin-right: 3px;
+  margin-bottom: 6px;
+  margin-right: 4px;
   margin-left: 2px;
   opacity: 0.8;
 }
 #home .home-logo-wrap img {
   width: 100%;
+}
+#home .home-text-wrap .svg-inline--fa {
+  color: #fff;
+  height: 0.45em;
+  margin-bottom: 4px;
+  margin-right: 4px;
+  margin-left: 2px;
+  opacity: 0.8;
 }
 
 .subheading .row {
@@ -875,6 +893,16 @@ h3.carousel-heading {
   padding-top: 0em !important;
 }
 
+@media (min-width: 992px) {
+  .home-text-wrap .svg-inline--fa {
+    color: #fff;
+    height: 0.85em;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    margin-left: 2px;
+    opacity: 0.8;
+  }
+}
 .contact-form {
   box-shadow: 0 1.1875rem 1.75rem 0.3125rem rgba(64, 64, 64, 0.09);
   margin: 1em;
@@ -1216,7 +1244,7 @@ hr.socket {
 
 .portfolio-section {
   padding-top: 0rem !important;
-  max-width: 75rem;
+  max-width: 100%;
 }
 
 .hr-main {
