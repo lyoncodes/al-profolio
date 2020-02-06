@@ -1,4 +1,21 @@
 head
+  //- Google Analytics
+  script(async='' src='https://www.googletagmanager.com/gtag/js?  id=UA-157631235-2')
+  script.
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date())  ;
+    gtag('config', 'UA-157631235-2');
+
+<!-- Google Tag Manager -->
+  script.
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NW9TWNL');
+<!-- End Google Tag Manager -->
+
   meta(charset="UTF-8")
   meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
   //- scripts
@@ -12,6 +29,7 @@ head
   link(rel="stylesheet" href="../styles/css/app.css")  
   link(rel="stylesheet" href="../styles/css/styles.css")
   //- meta data
+
   meta(name="description" content="Home Inspection services for St.Augustine, FL. interNACHI licesned professionals providing 4-Points Inspections, Wind Mitigation, and Blower Door Services")
   //- title
   title= `Lyon Home Inspections, St.Augustine FL`

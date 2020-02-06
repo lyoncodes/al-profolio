@@ -1,18 +1,41 @@
 //- ====== LANDING IMAGE SECTION =======
-.container-fluid.p-0
-  section.portfolio-section.p-2.pb-1.p-lg-5.d-flex.align-items-center#about
-    .col-12
-      h1.main-title.mb-0 BEN
-        span.text-primary.d-block.d-md-inline.mt-3.ml-md-3 GAUBERT
-      .subheading.mb-5.mt-3.ml-1.mr-auto
-        .row.ml-2
-          .col-12.col-md-6.col-xl-4.p-0.mr-0
-            .row.align-items-center
-              i(class=envelope_icon)
-              span.caption.ml-2 bengaubert@greenerealty.com
-          .col-12.col-md-6.col-xl-4.p-0.mr-0
-            .row.align-items-center
-              i(class=phone_icon) 
-              span.caption.ml-2.text-primary (360) 485-3711
-      p.main-text.mb-0 Distinct natural beauty and a community second to none make Olympia an amazing place to call home. No matter what your path or where you're from, I can help achieve your real estate goals with confidence and peace of mind. Local flavor with endless options. Achieving your real estate goals through relationships built on trust and communication.
-  include ../components/icon-row
+#home
+  .landing
+    .home-wrap
+      .home-inner
+        .row
+          .col-10.col-md-6.col-lg-4.home-img-wrap.ml-auto.mr-auto.mt-5.order-1.order-md-1
+            img(src='../styles/assets/logos/logo.png')
+            .home-img-wrap-caption.p-2.mt-3.text-center
+              span.caption St.Augustine 
+              i(class=divider display="inline")
+              span.caption Palm Coast 
+              i(class=divider display="inline")
+              span.caption Ponte Vedra
+              i(class=divider display="inline")
+              span.caption Jacksonville 
+              i(class=divider display="inline")
+              span.caption Platka 
+              i(class=divider display="inline")
+              span.caption Green Cove Springs 
+              i(class=divider display="inline")
+              span.caption Orange Park
+            .row.mt-5.mb-5.home-logo-wrap.justify-content-center
+              .col-4
+                img(src='../styles/assets/badges/interNACHI.png')
+              .col-4
+                img(src='../styles/assets/badges/wind.png')
+              .col-4
+                img(src='../styles/assets/badges/4points.png')
+              .col-4
+                img(src='../styles/assets/badges/pool.png')
+              .col-4
+                img(src='../styles/assets/badges/buyback.png')
+          //- Text Col
+          .col-10.col-md-6.col-lg-4.home-text-wrap.ml-auto.mr-auto.mt-md-5.mb-md-5.pt-md-5.order-2.order-md-2
+            h3.main-title.d-inline Committed to Quality
+            i(class=divider display="inline")
+            h3.main-title.d-inline Committed to You
+            p.sub-text.mt-4.mt-md-5 At Lyon Home Inspections our commitment to quality begins with a through, systematic and objective home inspection process that ensures an accurate snapshot of the home's visible and accessible condition. We provide an easy-to-read, custom report compiling our findings with detailed descriptions, high resolution photos, and any discovered issues so you can make an informed decision. We also encourage you to attend the inspection so we can discuss the process, point out important maintenance items, explain the findings, and answer all of your questions.
+            p.sub-text As a Florida Licensed and Certified Professional Home Inspection company our services include: Buyers Inspections, Pre Sales Inspections, Rental Property Inspections, Wind Mitigation Inspections, 4 –Points Inspections, and Mold Testing. 
+            p.sub-text Lyon Home Inspections is also a Florida certified Energy Rater providing blower-door air infiltration testing with thermal imaging for both new and existing homes.

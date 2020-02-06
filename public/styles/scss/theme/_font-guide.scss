@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6{
   letter-spacing: .021rem;
 }
 .main-title{
-  color: white!important;
+  color: $primary-red!important;
   font-size: 1.15rem;
   font-weight: $bold-font-weight;
 }
@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5,h6{
   font-size: 11px;
 }
 .caption{
-  color: $white;
+  color: $primary-blue;
   opacity: 0.8;
   font-family: $heading-font;
   font-weight: $bold-font-weight;
@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6{
   opacity: 0.8;
 }
 .sub-text{
-  color: $white;
+  color: black;
   font-weight: $light-font-weight;
 }
 .sub-text-dark{
@@ -85,6 +85,7 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: .021rem;
   }
   .nav-caption{
+    color: $accent-blue;
     font-size: 1.25em;
   }
   .main-title{

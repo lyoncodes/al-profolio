@@ -34,14 +34,8 @@
 // secondary-btn
 .btn-secondary{
   @extend %btn-secondary-style;
-
   &:hover{
-    color: white;
-    border-color: $primary-green;
-    background-color: $primary-green;
+    border-color: white;
+    background-color: darken($color: $primary-red, $amount: 1.5%);
   }
-}
-// form button
-.form-btn{
-  width: 35%;
 }

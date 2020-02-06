@@ -43,9 +43,11 @@
 }
 
 %btn-secondary-style{
-  background-color: white;
+  color: white;
+  border-color: $white;
+  background-color: $primary-red;
   border-width: medium;
-  border-radius: 0;
+  padding: 1rem;
   text-transform: uppercase;
-  margin: 1em;
+  width: 50%;
 }
